@@ -22,7 +22,7 @@ Leave the count on the desk while you inspect the trace on the main monitor. Eac
 
 ## Example from the emulator
 
-At 60 fps the nominal budget is about 16.67 ms. A 43 ms gap spans about 2.6 frame periods. Timestamps from unrelated tracks are kept separate. Synthetic Chrome trace, parsed by the production reader.
+At 60 fps the nominal budget is about 16.67 ms. A 43 ms gap spans about 2.6 frame periods. Timestamps from unrelated tracks are kept separate. The companion parsed a synthetic Chrome trace for this recording.
 
 ## Set up the source
 
