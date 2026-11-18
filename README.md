@@ -4,6 +4,8 @@ Find the longest gaps between displayed frames in a Chrome trace and jump to the
 
 Leave the count on the desk while you inspect the trace on the main monitor. Each long gap has a timestamp relative to the first matching frame, so you can locate the relevant part of the recording.
 
+The bars rank up to eight frame gaps from longest to shortest. They use measured durations from the selected trace. A pale bar identifies the gap currently on screen.
+
 ## Locate the longest gap
 
 1. Export an uncompressed Chrome trace and select the frame event and target frame rate.

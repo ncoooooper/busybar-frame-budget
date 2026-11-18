@@ -1,14 +1,12 @@
+import {marks} from "./front";
 import {instrument} from "@shared/instrument";
 
 instrument({
+  marks,
   "title": "FRAME BUDGET",
   "primary": "Frame Budget",
   "accent": "#E7AB67",
   "cadence": 10000,
-  "motion": {
-    "motif": "trace",
-    "color": "#E7AB67",
-    "shine": "#FFF2D6"
-  },
+  "motion": {enabled:false},
   "setup": "Start companion/serve.py"
 });
