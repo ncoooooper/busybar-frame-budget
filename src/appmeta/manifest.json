@@ -2,8 +2,8 @@
   "format_version": 1,
   "id": "io.ncoooooper.framebudget",
   "name": "Frame Budget",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "api_version": "27.12.0",
-  "description": "Find the longest gaps between displayed frames in a Chrome trace and jump to their timestamp.",
+  "description": "Read a running game’s FPS from PresentMon or MangoHud, or inspect long frame intervals in a Chrome trace.",
   "author": "ncoooooper"
 }

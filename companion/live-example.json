@@ -1,0 +1,6 @@
+{
+  "mode": "game",
+  "file": "capture.csv",
+  "process": "ExampleGame.exe",
+  "stale_seconds": 8
+}

@@ -3,8 +3,11 @@ import json
 from pathlib import Path
 from collections import defaultdict
 from serve import page
-INTERVAL=10
+INTERVAL=2
 def snapshot(o,m):
+    if o.get("mode") == "game":
+        from live import reading
+        return reading(o,m)
     file=Path(o["file"]).expanduser();fps=float(o.get("fps",60))
     if fps<=0:raise ValueError("Use a positive frame rate")
     data=json.loads(file.read_text());events=data.get("traceEvents",[]) if isinstance(data,dict) else data
