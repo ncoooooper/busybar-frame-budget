@@ -1,0 +1,6 @@
+{
+  "category": "dev-monitoring",
+  "short_description": "Find the longest gaps between displayed frames in a Chrome trace and jump to their timestamp.",
+  "description": "Find the longest gaps between displayed frames in a Chrome trace and jump to their timestamp. Export a Chrome or Chromium performance trace as uncompressed JSON. Set file, fps and the frame event name (default DrawFrame). Optionally set track to pid:tid. Otherwise the busiest matching track is selected. Gaps compare successive timestamps on that single track and include intentional idle time. Interpret them within the animation you recorded.",
+  "changelog": "First public version."
+}

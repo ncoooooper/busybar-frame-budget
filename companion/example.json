@@ -1,0 +1,5 @@
+{
+  "file": "~/Movies/trace.json",
+  "fps": 60,
+  "event": "DrawFrame"
+}

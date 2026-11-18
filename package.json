@@ -2,7 +2,7 @@
   "name": "busybar-frame-budget",
   "private": true,
   "version": "0.1.0",
-  "description": "Frame Budget",
+  "description": "Find the longest gaps between displayed frames in a Chrome trace and jump to their timestamp.",
   "author": "ncoooooper",
   "type": "module",
   "scripts": {
