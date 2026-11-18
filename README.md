@@ -6,6 +6,32 @@ Leave the count on the desk while you inspect the trace on the main monitor. Eac
 
 The bars rank up to eight frame gaps from longest to shortest. They use measured durations from the selected trace. A pale bar identifies the gap currently on screen.
 
+## Screen transitions
+
+Move from the frame budget to the longest gap in the capture and back.
+
+![Frame Budget front display. Move from the frame budget to the longest gap in the capture and back.](media/guide/screen-transitions.gif)
+
+<details>
+
+<summary>Watch the rear display</summary>
+
+![Frame Budget rear display during the recorded controls](media/guide/screen-transitions-rear.gif)
+
+</details>
+
+Open the game FPS reading and refresh it from the companion.
+
+![Frame Budget front display. Open the game FPS reading and refresh it from the companion.](media/guide/screen-transitions-connected.gif)
+
+<details>
+
+<summary>Watch the rear display in connected mode</summary>
+
+![Frame Budget rear display during the recorded controls](media/guide/screen-transitions-connected-rear.gif)
+
+</details>
+
 ## Locate the longest gap
 
 1. Export an uncompressed Chrome trace and select the frame event and target frame rate.
@@ -44,7 +70,7 @@ Open BUSY Bar Emulator. From this repository, run:
 
 Press **Back** to exit.
 
-The GIFs are excerpts from the emulator recording. Each front-display pixel is shown at 9× its original width and height. The end frames pause for reading.
+The GIFs are excerpts from the emulator recording. Each LED occupies a 16 × 16 cell with a black border. The end frames pause for reading.
 
 [Full recording](media/controls.mp4) · [Rear display](screenshots/back-1.png) · [Firmware test](EMULATOR-QA.md) · [MIT license](LICENSE)
 
@@ -74,6 +100,6 @@ Turn to FRAME TIME for the mean interval in milliseconds. At a steady 60 FPS it 
 
 ![The frame-time reading returns to the game FPS page.](media/guide/use-2.gif)
 
-The recordings use example responses on emulator firmware. Each display pixel is enlarged to a 9 × 9 square.
+The recordings use example responses on emulator firmware. Each LED occupies a 16 × 16 cell with a black border.
 
 [Intel PresentMon](https://github.com/GameTechDev/PresentMon) · [MangoHud logging](https://github.com/flightlessmango/MangoHud).

@@ -2,5 +2,5 @@
   "category": "dev-monitoring",
   "short_description": "Find the longest gaps between displayed frames in a Chrome trace and jump to their timestamp.",
   "description": "Read a running game’s FPS from PresentMon or MangoHud, or inspect long frame intervals in a Chrome trace. Find the longest gaps between displayed frames in a Chrome trace and jump to their timestamp. Export a Chrome or Chromium performance trace as uncompressed JSON. Set file, fps and the frame event name (default DrawFrame). Optionally set track to pid:tid. Otherwise the busiest matching track is selected. Gaps compare successive timestamps on that single track and include intentional idle time. Interpret them within the animation you recorded.",
-  "changelog": "Add live game frame-rate monitoring."
+  "changelog": "New screen transitions and high-contrast LED previews."
 }
